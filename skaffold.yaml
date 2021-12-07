@@ -7,7 +7,7 @@ deploy:
 build:
   local:
     push: false
-  artifactes:
+  artifacts:
     - image: oruamc/client
       context: client
       docker:
